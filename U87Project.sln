@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libU87Engine", "U87Engine\U87Engine.win32.vcxproj", "{4B04F485-0831-4600-A929-3012199B3068}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestScene.win32", "TestScene\TestScene.win32.vcxproj", "{F0D6895C-056A-457B-883C-677A8BE7E617}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4B04F485-0831-4600-A929-3012199B3068} = {4B04F485-0831-4600-A929-3012199B3068}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4B04F485-0831-4600-A929-3012199B3068}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4B04F485-0831-4600-A929-3012199B3068}.Debug|Win32.Build.0 = Debug|Win32
+		{4B04F485-0831-4600-A929-3012199B3068}.Release|Win32.ActiveCfg = Release|Win32
+		{4B04F485-0831-4600-A929-3012199B3068}.Release|Win32.Build.0 = Release|Win32
+		{F0D6895C-056A-457B-883C-677A8BE7E617}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F0D6895C-056A-457B-883C-677A8BE7E617}.Debug|Win32.Build.0 = Debug|Win32
+		{F0D6895C-056A-457B-883C-677A8BE7E617}.Release|Win32.ActiveCfg = Release|Win32
+		{F0D6895C-056A-457B-883C-677A8BE7E617}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

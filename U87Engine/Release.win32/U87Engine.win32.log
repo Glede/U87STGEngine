@@ -1,0 +1,27 @@
+﻿生成启动时间为 2013/2/11 4:59:22。
+     1>项目“C:\MARS\Works\METRO\fb_cocos2dx_013\U87Engine\U87Engine.win32.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I. /I.\win32 /I.\Classes /I..\cocos2dx /I..\cocos2dx\include /I..\cocos2dx\platform /I..\cocos2dx\platform\third_party\win32\OGLES /I..\CocosDenshion\Include /nologo /W3 /WX- /O2 /Oy- /D FIX_CCZONE /D WIN32 /D _WINDOWS /D STRICT /D NDEBUG /D _UNICODE /D UNICODE /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release.win32\\" /Fd"Release.win32\vc110.pdb" /Gd /TP /wd4251 /analyze- /errorReport:prompt Classes\U87MovableObject.cpp
+         U87MovableObject.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\xlocale(336): warning C4530: 使用了 C++ 异常处理程序，但未启用展开语义。请指定 /EHsc
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"C:\MARS\Works\METRO\fb_cocos2dx_013\Release.win32\libU87Engine.lib" /NOLOGO Release.win32\U87GameEvent.obj
+         Release.win32\U87Collision.obj
+         Release.win32\U87Dynamics.obj
+         Release.win32\U87Control.obj
+         Release.win32\U87GameUnit.obj
+         Release.win32\U87Geometry.obj
+         Release.win32\U87Hud.obj
+         Release.win32\U87Layout.obj
+         Release.win32\U87Math.obj
+         Release.win32\U87MovableObject.obj
+         Release.win32\U87ParticleModel.obj
+         Release.win32\U87Terrain.obj
+         Release.win32\U87Util.obj
+         Release.win32\U87World.obj
+         U87Engine.win32.vcxproj -> C:\MARS\Works\METRO\fb_cocos2dx_013\Release.win32\libU87Engine.lib
+     1>已完成生成项目“C:\MARS\Works\METRO\fb_cocos2dx_013\U87Engine\U87Engine.win32.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.06

@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{21050521-fdbe-49cc-9c83-39c9e9a5aa5d}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm</Extensions>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{cde5ae64-9714-4d89-aa8b-e372d07633d8}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;jpg;jpeg;jpe;png;manifest</Extensions>
+    </Filter>
+    <Filter Include="source\basic">
+      <UniqueIdentifier>{2f4f5221-34bc-429b-9da1-da86896524eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header">
+      <UniqueIdentifier>{07bfd2b9-0de4-46a8-b1dd-c27c39518e94}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc</Extensions>
+    </Filter>
+    <Filter Include="header\basic">
+      <UniqueIdentifier>{fdc39a12-6c9b-427f-b226-d270fb76e9ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header\physics">
+      <UniqueIdentifier>{7d886cad-6d79-4edc-ada5-6033677c85b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header\ui">
+      <UniqueIdentifier>{8f10f8f4-0db9-4116-bfa7-7a28a4fd6a60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\ui">
+      <UniqueIdentifier>{42f87f24-78eb-4146-ac1b-984d5f622c40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header\game">
+      <UniqueIdentifier>{1d48a925-b059-48a5-bdbb-10a934241a53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\game">
+      <UniqueIdentifier>{325fb135-06db-4a31-b999-8701f52f56cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header\platform">
+      <UniqueIdentifier>{39ac0831-2c50-4db5-a3d9-5bf9927770cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header\extension">
+      <UniqueIdentifier>{27063788-7986-4e96-ae92-c1f4071db2b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\extension">
+      <UniqueIdentifier>{14a041de-70dd-4f20-95f8-8626edea35db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\physics">
+      <UniqueIdentifier>{91182628-9a81-40a0-b859-30732a80e264}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\platform">
+      <UniqueIdentifier>{1a590157-606c-4b85-9689-4c5fd8a1de93}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="U87Engine.h" />
+    <ClInclude Include="Classes\U87Util.h">
+      <Filter>header\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\U87Math.h">
+      <Filter>header\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\U87GameUnit.h">
+      <Filter>header\game</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\U87Dynamics.h">
+      <Filter>header\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\U87MovableObject.h">
+      <Filter>header\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\U87Serialization.h">
+      <Filter>header\extension</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\U87Control.h">
+      <Filter>header\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\U87ParticleModel.h">
+      <Filter>header\extension</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\U87Layout.h">
+      <Filter>header\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\U87Platform.h">
+      <Filter>header\platform</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\U87Graphics.h">
+      <Filter>header\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\U87Hud.h">
+      <Filter>header\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\U87GameEvent.h">
+      <Filter>header\game</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\U87Terrain.h">
+      <Filter>header\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\U87ActionExtension.h">
+      <Filter>header\extension</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\U87Collision.h">
+      <Filter>header\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\U87World.h">
+      <Filter>header\game</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\U87Camera.h">
+      <Filter>header\game</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Classes\U87Util.cpp">
+      <Filter>source\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\U87Math.cpp">
+      <Filter>source\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\U87Dynamics.cpp">
+      <Filter>source\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\U87MovableObject.cpp">
+      <Filter>source\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\U87Control.cpp">
+      <Filter>source\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\U87GameUnit.cpp">
+      <Filter>source\game</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\U87ParticleModel.cpp">
+      <Filter>source\extension</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\U87Layout.cpp">
+      <Filter>source\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\U87Hud.cpp">
+      <Filter>source\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\U87GameEvent.cpp">
+      <Filter>source\game</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\U87Terrain.cpp">
+      <Filter>source\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\U87ActionExtension.cpp">
+      <Filter>source\extension</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\U87World.cpp">
+      <Filter>source\game</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\U87Geometry.cpp">
+      <Filter>source\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\U87Collision.cpp">
+      <Filter>source\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\U87Camera.cpp">
+      <Filter>source\game</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
